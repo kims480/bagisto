@@ -907,9 +907,10 @@ section.slider-block {
  * Header navigation.
  */
 .header {
-    margin-top: 16px;
+    padding-top: 16px;
     margin-bottom: 21px;
     user-select: none;
+    background-color: gold;
 
     .header-top {
         margin-bottom: 16px;

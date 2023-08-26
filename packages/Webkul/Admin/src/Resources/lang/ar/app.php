@@ -92,14 +92,14 @@ return [
     'acl' => [
         'dashboard'                => 'لوحة التحكم',
         'sales'                    => 'المبيعات',
-        'cancel'                   => 'يلغي',
+        'cancel'                   => 'الغاء',
         'orders'                   => 'الطلبات',
         'shipments'                => 'الشحنات',
         'invoices'                 => 'الفواتير',
         'refunds'                  => 'المبالغ المعادة',
         'catalog'                  => 'فهرس',
         'products'                 => 'المنتجات',
-        'copy'                     => 'ينسخ',
+        'copy'                     => 'نسخ',
         'categories'               => 'الفئات',
         'attributes'               => 'الصفات',
         'attribute-families'       => 'وصف الأسر',
@@ -627,8 +627,8 @@ return [
             'saved-inventory-message'       => 'تم حفظ مخزون المنتج بنجاح.',
             'create-success'                => 'تم إنشاء المنتج بنجاح.،',
             'update-success'                => 'تم تحديث المنتج بنجاح.',
-            'delete-success'                => 'تم حذف المنتج بنجاح.',   
-            'delete-failed'                 => 'حدث خطأ أثناء حذف المنتج.', 
+            'delete-success'                => 'تم حذف المنتج بنجاح.',
+            'delete-failed'                 => 'حدث خطأ أثناء حذف المنتج.',
             'validations'                   => [
                 'quantity-required' => 'الكمية مطلوبة.',
                 'quantity-integer'  => 'يجب أن تكون الكمية عددًا صحيحًا.',
@@ -1037,7 +1037,7 @@ return [
             'delete-success'  => 'تم حذف مجموعة العملاء بنجاح',
             'delete-failed'   => 'خطأ! لا يمكن حذف مجموعة العملاء',
             'customer-associate'  => 'لا يمكن حذف العميل لأن العميل مرتبط بهذه المجموعة.',
-        
+
         ],
 
         'addresses' => [
@@ -1247,7 +1247,7 @@ return [
                 'update-success' => 'تم تحديث القسيمة بنجاح',
                 'delete-success' => 'تم حذف القسيمة بنجاح',
             ],
-            
+
         ],
 
         'catalog-rules' => [
